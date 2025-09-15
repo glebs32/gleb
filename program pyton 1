@@ -1,0 +1,11 @@
+name = input('introduceti numele dumneavoastra ')
+cifra1 = int(input('intrduceti prima cifra'))
+cifra2 = int(input('introduceti a doua cifra'))
+suma = cifra1+cifra2
+diferenta = cifra1 - cifra2
+inmultirea = cifra1 * cifra2
+impartirea = cifra1 / cifra2
+I_faraRest = cifra1 // cifra2
+rest = cifra1 % cifra2
+puterea =cifra1 ** cifra2
+print(f'operatiile de paza cu cifrele pe care ati introdus sunt:   \nsuma: {suma} \ndiferenta: {diferenta} \ninmultirea: {inmultirea} \nimpartirea {impartirea} \nimpartirea fara rest: {I_faraRest} \nrestul impartirii: {rest} \nridicarea la putere:  {puterea}' )
